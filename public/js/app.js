@@ -2119,14 +2119,14 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
   },
   methods: {
     activar: function activar(e) {
-      if (e.target.classList.contains('bg-teal-400')) {
+      if (e.target.classList.contains('bg-indigo-400')) {
         //El skill esta en activo
-        e.target.classList.remove('bg-teal-400'); //Eliminar del set de habilidades
+        e.target.classList.remove('bg-indigo-400'); //Eliminar del set de habilidades
 
         this.habilidades["delete"](e.target.textContent);
       } else {
         //El skill no esta activo, añadirlo
-        e.target.classList.add('bg-teal-400'); //Agregar al set de hailidades
+        e.target.classList.add('bg-indigo-400'); //Agregar al set de hailidades
 
         this.habilidades.add(e.target.textContent);
       } //Agregar las skills al input hidden
@@ -2137,7 +2137,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       document.querySelector('#skills').value = stringHabilidades;
     },
     verificarClaseActiva: function verificarClaseActiva(skill) {
-      return this.habilidades.has(skill) ? 'bg-teal-400' : '';
+      return this.habilidades.has(skill) ? 'bg-indigo-400' : '';
     }
   }
 });

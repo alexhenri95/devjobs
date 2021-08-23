@@ -32,8 +32,8 @@
 								<td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
 									<div class="flex items-center">
 										<div class="ml-4">
-											<div class="text-sm leading-5 font-medium text-gray-900">{{$candidato->tituloAcademico}}</div>
-											<div class="text-sm leading-5 text-gray-700">Candidato: {{$candidato->nombre}} </div>
+											<div class="text-sm leading-5 font-medium text-indigo-800">{{$candidato->tituloAcademico}}</div>
+											<div class="text-sm leading-5 text-gray-700"><strong>Candidato:</strong> {{$candidato->nombre}} </div>
 										</div>
 									</div>
 								</td>
@@ -41,7 +41,7 @@
 									<p class="text-gray-700">{{ $candidato->email }}</p>
 								</td>
 								<td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium">
-									<a href="/storage/cv/{{$candidato->cv}}" class="bg-teal-500 py-1 px-2 inline-block text-xs font-bold uppercase text-white rounded">CV</a>
+									<a href="/storage/cv/{{$candidato->cv}}" class="bg-indigo-600 py-1 px-2 inline-block text-xs font-bold uppercase text-white rounded">CV</a>
 								</td>
 							</tr>
 						@endforeach

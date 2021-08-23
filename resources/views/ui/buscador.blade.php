@@ -7,7 +7,7 @@
 	<div class="md:flex items-start">
 
 		<div class="md:w-1/2">
-			<div class="flex flex-wrap mb-5 mr-1">
+			<div class="flex flex-wrap mb-5 md:mr-1">
 				<select name="ubicacion" id="ubicacion" class="block appearance-none w-full border border-gray-200 text-gray-700 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 py-2 bg-gray-400 px-2">
 					<option value="" disabled selected>Seleccione la ubicación...</option>
 					@foreach($ubicaciones as $ubicacion)
@@ -24,7 +24,7 @@
 		</div>
 
 		<div class="md:w-1/2">
-			<div class="flex flex-wrap mb-5 ml-1">
+			<div class="flex flex-wrap mb-5 md:ml-1">
 				<select name="categoria" id="categoria" class="block appearance-none w-full border border-gray-200 text-gray-700 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 py-2 bg-gray-400 px-2">
 					<option value="" disabled selected>Seleccione una categoría...</option>
 					@foreach($categorias as $categoria)
@@ -40,5 +40,5 @@
 			</div>
 		</div>
 	</div>
-	<button type="submit" class="bg-teal-500 w-full hover:bg-teal-600 text-gray-100 p-3 focus:outline-none focus:shadow-outline uppercase font-bold text-sm cursor-pointer">Buscar vacante</button>
+	<button type="submit" class="bg-indigo-700 w-full hover:bg-indigo-600 text-gray-100 p-3 focus:outline-none focus:shadow-outline uppercase font-bold text-sm cursor-pointer">Buscar vacante</button>
 </form>

@@ -30,14 +30,14 @@
 		},
 		methods: {
 			activar(e){
-				if (e.target.classList.contains('bg-teal-400')) {
+				if (e.target.classList.contains('bg-indigo-400')) {
 					//El skill esta en activo
-					e.target.classList.remove('bg-teal-400');
+					e.target.classList.remove('bg-indigo-400');
 					//Eliminar del set de habilidades
 					this.habilidades.delete(e.target.textContent);
 				}else{
 					//El skill no esta activo, añadirlo
-					e.target.classList.add('bg-teal-400');
+					e.target.classList.add('bg-indigo-400');
 					//Agregar al set de hailidades
 					this.habilidades.add(e.target.textContent);
 				}
@@ -46,7 +46,7 @@
 				document.querySelector('#skills').value = stringHabilidades;
 			},
 			verificarClaseActiva(skill) {
-				return this.habilidades.has(skill) ? 'bg-teal-400' : '';
+				return this.habilidades.has(skill) ? 'bg-indigo-400' : '';
 			}
 		}
 	}

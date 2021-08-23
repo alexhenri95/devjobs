@@ -7,14 +7,14 @@ use Illuminate\Database\Eloquent\Model;
 class Vacante extends Model
 {
     protected $fillable = [
-    	'titulo',
-    	'imagen',
-    	'descripcion',
-    	'skills',
-    	'categoria_id',
-    	'experiencia_id',
-    	'ubicacion_id',
-    	'sueldo_id',
+        'titulo',
+        'imagen',
+        'descripcion',
+        'skills',
+        'categoria_id',
+        'experiencia_id',
+        'ubicacion_id',
+        'sueldo_id',
     ];
 
     public function categoria()

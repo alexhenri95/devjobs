@@ -7,7 +7,7 @@
         <div class="w-full max-w-sm">
             <div class="flex flex-col break-words bg-white border-2 shadow-md mt-20">
 
-                <div class="bg-gray-800 text-white font-bold uppercase text-center py-3 px-6 mb-0">
+                <div class="bg-indigo-800 text-white font-bold uppercase text-center py-3 px-6 mb-0">
                     {{ __('Login') }}
                 </div>
 
@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="flex flex-wrap ">
-                        <button type="submit" class="bg-teal-500 w-full hover:bg-teal-700 text-gray-100 p-3 focus:outline-none focus:shadow-outline uppercase font-bold text-sm">
+                        <button type="submit" class="bg-indigo-500 w-full hover:bg-indigo-700 text-gray-100 p-3 focus:outline-none focus:shadow-outline uppercase font-bold text-sm">
                             {{ __('Login') }}
                         </button>
 

@@ -31,7 +31,7 @@
 					
 					<tr>
 						<td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 text-gray-500">
-							<p class="text-gray-700 fas fa-spinner text-xl text-green-400"></p>
+							<p class="fas fa-envelope text-xl text-indigo-500"></p>
 						</td>
 						<td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 text-gray-500">
 							<p class="text-gray-700"> {{ $fecha }}</p>
@@ -40,7 +40,7 @@
 							<p class="text-gray-700">Candidato: {{ $data['vacante'] }}</p>
 						</td>
 						<td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium">
-							<a href="{{ route('candidatos.index', ['id' => $data['vacanteId'] ]) }}" class="bg-teal-500 py-1 px-2 inline-block text-xs font-bold uppercase text-white rounded">Ver candidatos</a>
+							<a href="{{ route('candidatos.index', ['id' => $data['vacanteId'] ]) }}" class="bg-indigo-600 py-1 px-2 inline-block text-xs font-bold uppercase text-white rounded">Ver candidatos</a>
 						</td>
 					</tr>
 				@endforeach
@@ -73,7 +73,7 @@
 					
 					<tr>
 						<td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 text-gray-500">
-							<p class="text-gray-700 fas fa-check-circle text-xl text-green-400"></p>
+							<p class="fas fa-envelope-open text-xl text-indigo-600"></p>
 						</td>
 						<td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 text-gray-500">
 							<p class="text-gray-700"> {{ $fecha }}</p>
@@ -82,7 +82,7 @@
 							<p class="text-gray-700">Candidato: {{ $data['vacante'] }}</p>
 						</td>
 						<td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium">
-							<a href="{{ route('candidatos.index', ['id' => $data['vacanteId'] ]) }}" class="bg-teal-500 py-1 px-2 inline-block text-xs font-bold uppercase text-white rounded">Ver candidatos</a>
+							<a href="{{ route('candidatos.index', ['id' => $data['vacanteId'] ]) }}" class="bg-indigo-600 py-1 px-2 inline-block text-xs font-bold uppercase text-white rounded">Ver candidatos</a>
 						</td>
 					</tr>
 				@endforeach

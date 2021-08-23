@@ -130,7 +130,7 @@
             @enderror
 		</div>
 
-		<button type="submit" class="bg-teal-500 w-full hover:bg-teal-600 text-gray-100 p-3 focus:outline-none focus:shadow-outline uppercase font-bold text-sm cursor-pointer">Editar vacante</button>
+		<button type="submit" class="bg-indigo-500 w-full hover:bg-indigo-600 text-gray-100 p-3 focus:outline-none focus:shadow-outline uppercase font-bold text-sm cursor-pointer">Editar vacante</button>
 
 	</form>
 @endsection

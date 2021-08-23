@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-	<h1 class="text-2xl text-gray-900 text-center mt-10">Administra tus vacantes</h1>
+	<h1 class="text-2xl text-gray-800 text-center mt-10">Administra tus vacantes</h1>
 	<div class="flex flex-col mt-10">
 
 		@if(count($vacantes) > 0)
@@ -34,7 +34,7 @@
 						<tr>
 							<td class="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
 								<div class="flex items-center">
-									<div class="ml-4">
+									<div class="">
 										<div class="text-sm leading-5 font-medium text-gray-900">{{$vacante->titulo}}</div>
 										<div class="text-sm leading-5 text-gray-500">Categoria: {{$vacante->categoria->nombre}} </div>
 									</div>
@@ -73,6 +73,6 @@
 
 	</div>
 
-	{{$vacantes->links()}}
+	{{$vacantes->links()}}	
 	
 @endsection

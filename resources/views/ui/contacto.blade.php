@@ -1,4 +1,4 @@
-<aside class="md:w-2/5 bg-teal-500 px-5 py-10 rounded m-3">
+<aside class="md:w-2/5 bg-indigo-800 px-4 md:px-5 py-10 rounded ">
 
 	<h3 class="text-xl text-white uppercase font-bold text-center mb-5">Contacto al reclutador</h3>
 	<form action="{{route('candidatos.store')}}" method="POST" enctype="multipart/form-data">
@@ -49,6 +49,6 @@
 
 		<input type="hidden" name="vacante_id" value="{{$vacante->id}}">
 
-		<input type="submit" value="Contactar" class="bg-teal-700 w-full font-bold hover:bg-teal-800 text-gray-100 p-3 focus:outline-none focus:shadow-outline uppercase cursor-pointer">
+		<input type="submit" value="Contactar" class="bg-indigo-500 w-full font-bold hover:bg-indigo-600 text-gray-100 p-3 focus:outline-none focus:shadow-outline uppercase cursor-pointer">
 	</form> 
 </aside>
